@@ -17,6 +17,7 @@ jobs:
       run: |
         ./bin/install
         pip install pytest pytest-cov
+        
     - name: Check linting and run pytest
       run: |
         set -e
