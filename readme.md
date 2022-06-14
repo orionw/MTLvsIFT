@@ -1,8 +1,6 @@
-![Python application](https://github.com/orionw/TransferPrediction/workflows/transferprediction/badge.svg?branch=master)
-
 [When to Use Multi-Task Learning vs Intermediate Fine-Tuning for Pre-Trained Encoder Transfer Learning](https://aclanthology.org/2022.acl-short.30/)
 ========
-A repository for understanding when to use different transfer learning method for NLP
+A repository for understanding when to use different transfer learning method for NLP, by Orion Weller, Kevin Seppi, and Matt Gardner
 
 To reproduce the results, follow these instructions. Note that this repository was started in 2020 and contains many out of date versions of NLP packages, such as a very old version of Huggingface Transformers. Future work should likely move to more up-to-date transfer learning frameworks in order to include newer models and for ease of use.
 
@@ -15,7 +13,7 @@ Setup
 3. Gather the GLUE data by running `python ./bin/get_glue.py --data_dir <PATH>`.  This will download (most of) the GLUE data, due to legal requirements.
 
 
-Get Results on Data
+To Reproduce
 -------------------
 0. Generate the models and scores: 
 - Use `./bin/glue/single_glue` to generate the single task GLUE models and scores (used for MTL dynamic sampling and for STILTs)
