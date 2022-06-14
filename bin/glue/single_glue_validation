@@ -1,0 +1,41 @@
+#! /usr/bin/env bash
+export GLUE_DIR=glue_size_datasets
+
+declare -a arr=("MNLI_$1_0.33" "MNLI_$1_0.5" "MNLI_$1_1" "MNLI_$1_2" "MNLI_$1_3")
+declare -i arraylen=${#arr[@]}
+
+base_dir="distil-glue-validation-single"
+output_base="$base_dir"
+
+prop=$1
+seed=$2
+
+for ((j=0; j<$arraylen; j++)); # task
+do
+    echo "$seed-${arr[j]}"
+    python3 -m transferprediction.run_glue \
+    --model_type roberta \
+    --model_name_or_path distilroberta-base \
+    --task_names "$(echo ${arr[j]} | cut -d _ -f 1)" \
+    --do_train \
+    --do_eval \
+    --seed "$seed" \
+    --do_lower_case \
+    --data_dirs "$GLUE_DIR/${arr[j]}" \
+    --max_seq_length 128 \
+    --per_gpu_train_batch_size 128 \
+    --learning_rate 2e-5 \
+    --save_checkpoints 20 \
+    --num_train_epochs 10.0 \
+    --overwrite_output_dir \
+    --fp16 \
+    --sampling_type uniform \
+    --batch_type heterogeneous \
+    --eval_all_checkpoints \
+    --output_dir "$output_base/$seed/$prop/${arr[j]}/" &&
+    python3 -m transferprediction.find_save_best_only "$output_base/$seed/$prop" --single
+    if [ $? -ne 0 ]; then
+        echo "was an unsucessful run for "$seed"-${arr[j]}, quitting"
+        exit 1
+    fi
+done

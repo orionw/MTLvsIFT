@@ -1,0 +1,12 @@
+#! /bin/bash
+declare -a random_num=(42 544460 801760 428404 257803)
+
+for ((i=0; i<${#random_num[@]}; i++)); # random seeds
+do
+    sleep 3
+    sbatch -J "$1_u${random_num[i]}" --gpus=1 --time=24:00:00 <GPU-Info-Here> --mem-per-cpu=32000M ./bin/glue/execute_glue$1 "${random_num[i]}"
+    if [ $? -ne 0 ]; then
+        echo "was an unsucessful run for seed "${random_num[i]}", quitting"
+        exit 1
+    fi
+done

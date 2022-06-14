@@ -1,0 +1,39 @@
+#! /usr/bin/env bash
+export GLUE_DIR=glue_data
+
+declare -a arr=("CoLA" "SST-2" "MRPC" "QQP" "STS-B" "MNLI" "QNLI" "RTE" "WNLI")
+declare -i arraylen=${#arr[@]}
+declare -a random_num=(42 544460 801760 428404 257803)
+
+for ((i=0; i<5; i++)); # random seeds
+do
+    for ((j=0; j<$arraylen; j++)); # task
+    do
+        echo "${random_num[i]}-${arr[j]}"
+        python3 -m transferprediction.run_glue \
+        --model_type roberta \
+        --model_name_or_path distilroberta-base \
+        --task_names "${arr[j]}" \
+        --do_train \
+        --do_eval \
+        --seed "${random_num[i]}" \
+        --do_lower_case \
+        --data_dirs "$GLUE_DIR/${arr[j]}" \
+        --max_seq_length 128 \
+        --per_gpu_train_batch_size 128 \
+        --learning_rate 2e-5 \
+        --save_checkpoints 20 \
+        --num_train_epochs 10.0 \
+        --overwrite_output_dir \
+        --fp16 \
+        --sampling_type uniform \
+        --batch_type heterogeneous \
+        --eval_all_checkpoints \
+        --output_dir "<output_path>/${random_num[i]}/${arr[j]}/" &&
+        python3 -m transferprediction.find_save_best_only "<output_path>/${random_num[i]}" --single
+        if [ $? -ne 0 ]; then
+            echo "was an unsucessful run for "${random_num[i]}"-${arr[j]}, quitting"
+            exit 1
+        fi
+    done
+done

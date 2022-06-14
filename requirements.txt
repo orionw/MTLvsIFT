@@ -1,0 +1,14 @@
+torch==1.4.0
+seaborn==0.10.0
+tqdm==4.41.1
+pandas==0.25.3
+numpy==1.16.0
+scikit-learn==0.22.2
+ptvsd==4.3.2
+tensorboard==1.13.0
+git+https://github.com/huggingface/transformers.git@d426b58b9e32a2ffc8c8a1196143270e22054a46#egg=transformers
+h5py==2.10.0
+nltk==3.4.5
+ujson==2.0.2
+matplotlib==3.2.0
+tensorboardX

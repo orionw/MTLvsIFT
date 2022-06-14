@@ -1,0 +1,40 @@
+#! /usr/bin/env bash
+export GLUE_DIR=glue_size_datasets
+
+declare -a arr_target=("$1_$3" "$1_$3" "$1_$3" "$1_$3" "$1_$3")
+declare -a arr_support=("$2_$3_3" "$2_$3_2" "$2_$3_1" "$2_$3_0.5" "$2_$3_0.33")
+declare -i arraylen=${#arr_target[@]}
+seed=$4
+base_dir="distil-glue-validation-pairs-mnli-again"
+output_base="$base_dir"
+
+for ((i=0; i<$arraylen; i++));
+do
+        echo "${arr_target[i]} ${arr_support[i]}"
+        python3 -m transferprediction.run_glue \
+        --model_type roberta \
+        --model_name_or_path distilroberta-base \
+        --task_names "$(echo ${arr_target[i]} | cut -d _ -f 1) $(echo ${arr_support[i]} | cut -d _ -f 1)" \
+        --do_train \
+        --do_eval \
+        --do_lower_case \
+        --data_dirs "$GLUE_DIR/${arr_target[i]} $GLUE_DIR/${arr_support[i]}" \
+        --max_seq_length 128 \
+        --per_gpu_train_batch_size 128 \
+        --learning_rate 2e-5 \
+        --save_checkpoints 10 \
+        --num_train_epochs 10.0 \
+        --overwrite_output_dir \
+        --sampling_type dynamic \
+        --batch_type heterogeneous \
+        --single_task_scores <single_pairs_data_csv_path> \
+        --seed $seed \
+        --fp16 \
+        --eval_all_checkpoints \
+        --output_dir "$output_base/$seed/$3/${arr_target[i]}--${arr_support[i]}/" && 
+        python3 -m transferprediction.find_save_best_only $output_base/$seed/$3/ --remove_all
+        if [ $? -ne 0 ]; then
+            echo "was an unsucessful run for seed $seed, ${arr_target[i]} and ${arr_support[ji]}, quitting"
+            exit 1
+        fi
+done

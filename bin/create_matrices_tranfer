@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+for model_path in $1/*;
+    do
+    python3 -m transferprediction.create_data_matrix --single --dir_path $model_path --use_seed --dont_validate --output_dir $model_path
+done
+python3 -m transferprediction.create_data_matrix --dir_path $1 --transfer --single_data_path $2 --output_dir $3 --single_data_type max

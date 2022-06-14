@@ -1,0 +1,53 @@
+#! /usr/bin/env bash
+
+<load python and cuda according to setup here>
+
+export GLUE_DIR=glue_data
+
+declare -a model_path=(List_All_CheckPoints_Of_Saved_Models_Here)
+
+declare -a arr=("RTE" "CoLA" "MRPC" "SST-2" "QQP" "STS-B" "MNLI" "QNLI" "WNLI")
+declare -i arraylen=${#arr[@]}
+declare -a random_num=($1)
+
+for ((k=0; k<${#model_path[@]}; k++)); # saved models
+    do
+    for ((i=0; i<1; i++)); # random seeds
+    do
+        for ((j=0; j<$arraylen; j++)); # task
+        do
+            BASE_DIRECTORY=$(echo "${model_path[k]}" | sed -e 's/\//-/g')
+            BASE_TASK=$(echo "${model_path[k]}" | cut -d "/" -f2)
+            echo "base dir is $BASE_DIRECTORY"
+            if [ $BASE_TASK != ${arr[j]::-1} ]; then
+                echo "${model_path[k]} on ${random_num[i]}-${arr[j]}"
+                python3 -m transferprediction.run_glue \
+                --model_type roberta \
+                --model_name_or_path <base_path>/${model_path[k]} \
+                --task_names "${arr[j]}" \
+                --do_train \
+                --do_eval \
+                --seed "${random_num[i]}" \
+                --do_lower_case \
+                --data_dirs "$GLUE_DIR/${arr[j]}" \
+                --max_seq_length 128 \
+                --per_gpu_train_batch_size 128 \
+                --learning_rate 2e-5 \
+                --save_checkpoints 20 \
+                --num_train_epochs 10.0 \
+                --overwrite_output_dir \
+                --fp16 \
+                --start_again \
+                --sampling_type uniform \
+                --batch_type heterogeneous \
+                --eval_all_checkpoints \
+                --output_dir "$BASE_DIRECTORY/${random_num[i]}/${arr[j]}/" &&
+                python3 -m transferprediction.find_save_best_only "$BASE_DIRECTORY/${random_num[i]}" --single
+                if [ $? -ne 0 ]; then
+                    echo "was an unsucessful run for "${random_num[i]}"-${arr[j]}, quitting"
+                    exit 1
+                fi
+            fi
+        done
+    done
+done

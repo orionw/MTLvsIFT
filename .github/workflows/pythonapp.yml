@@ -1,0 +1,40 @@
+name: transferprediction
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        ./bin/install
+        pip install pytest pytest-cov
+    - name: Check linting and run pytest
+      run: |
+        set -e
+        ROOT=$(git rev-parse --show-toplevel)
+        TARGETS="$($ROOT/bin/targets)"
+        for TARGET in $TARGETS
+        do
+            echo "Analyzing $TARGET."
+            black \
+                --line-length 80 \
+                --target-version py36 \
+                --safe \
+                --check \
+                $TARGET
+            pylint --errors-only $TARGET
+        done
+        pytest tests --cov=./
+
+    - name: Push to codecov
+      run: |
+        bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}

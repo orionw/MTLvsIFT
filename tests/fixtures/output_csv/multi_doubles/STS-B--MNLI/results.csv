@@ -1,0 +1,7 @@
+,task,checkpoint,spearmanr,acc
+0,mnli,0,,0.0
+1,mnli,1,,1.0
+2,mnli,2,,0.0
+3,sts-b,1,1.0,
+4,sts-b,0,1.0,
+5,sts-b,2,0.7,

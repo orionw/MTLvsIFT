@@ -1,0 +1,42 @@
+#! /usr/bin/env bash
+export GLUE_DIR=glue_data
+
+declare -a arr=("CoLA" "SST-2" "MRPC" "QQP" "STS-B" "MNLI" "QNLI" "RTE" "WNLI")
+declare -i arraylen=${#arr[@]}
+seed=$1
+
+for ((i=0; i<$arraylen; i++));
+do
+    for ((j=0; j<$arraylen; j++));
+    do
+        if (( $i < $j )); then
+            echo "${arr[i]} ${arr[j]}"
+            python3 -m transferprediction.run_glue \
+            --model_type roberta \
+            --model_name_or_path distilroberta-base \
+            --task_names "${arr[i]} ${arr[j]}" \
+            --do_train \
+            --do_eval \
+            --do_lower_case \
+            --data_dirs "$GLUE_DIR/${arr[i]} $GLUE_DIR/${arr[j]}" \
+            --max_seq_length 128 \
+            --per_gpu_train_batch_size 128 \
+            --learning_rate 2e-5 \
+            --save_checkpoints 10 \
+            --num_train_epochs 10.0 \
+            --overwrite_output_dir \
+            --sampling_type uniform \
+            --batch_type heterogeneous \
+            --single_task_scores <single_pairs_data_csv_path> \
+            --seed $seed \
+            --fp16 \
+            --eval_all_checkpoints \
+            --output_dir "<some_base_dir>/$seed/${arr[i]}--${arr[j]}/" && 
+            python3 -m transferprediction.find_save_best_only <some_base_dir>/$seed/ --remove_all
+            if [ $? -ne 0 ]; then
+                echo "was an unsucessful run for seed $seed, ${arr[i]} and ${arr[j]}, quitting"
+                exit 1
+            fi
+        fi
+    done
+done

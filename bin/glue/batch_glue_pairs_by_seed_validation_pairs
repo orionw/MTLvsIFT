@@ -1,0 +1,21 @@
+#! /bin/bash
+declare -a random_num=(42 544460 801760 428404 257803)
+declare -a arr_target=("QNLI")
+declare -a arr_support=("MNLI")
+declare -a base_size_props=("0.5" "1" "0.5" "0.33")
+
+for ((index_size=0; index_size<${#base_size_props[@]}; index_size++));
+do
+    for ((index_names=0; index_names<${#arr_target[@]}; index_names++));
+    do
+        for ((index_random=0; index_random<${#random_num[@]}; index_random++)); # random seeds
+        do
+            echo "On seed=${random_num[index_random]} with name_target=${arr_target[index_names]} and name_support=${arr_support[index_names]} and base_size=${base_size_props[index_size]}"
+            sbatch -J "${random_num[index_random]}-${base_size_props[index_size]}-${arr_target[index_names]}-${arr_support[index_names]}" --partition m9g --gpus=1 --time=72:00:00 --ntasks=4 --nodes=1 --mem-per-cpu=12000M ./bin/glue/execute_glue_validation "${arr_target[index_names]}" "${arr_support[index_names]}" "${base_size_props[index_size]}" "${random_num[index_random]}" 
+            if [ $? -ne 0 ]; then
+                echo "was an unsucessful run for seed "${random_num[index_random]}", quitting"
+                exit 1
+            fi
+        done
+    done
+done

@@ -1,0 +1,1000 @@
+gj04	1		Our friends won't buy this analysis, let alone the next one we propose.
+gj04	1		One more pseudo generalization and I'm giving up.
+gj04	1		One more pseudo generalization or I'm giving up.
+gj04	1		The more we study verbs, the crazier they get.
+gj04	1		Day by day the facts are getting murkier.
+gj04	1		I'll fix you a drink.
+gj04	1		Fred watered the plants flat.
+gj04	1		Bill coughed his way out of the restaurant.
+gj04	1		We're dancing the night away.
+gj04	1		Herman hammered the metal flat.
+gj04	1		The critics laughed the play off the stage.
+gj04	1		The pond froze solid.
+gj04	1		Bill rolled out of the room.
+gj04	1		The gardener watered the flowers flat.
+gj04	1		The gardener watered the flowers.
+gj04	1		Bill broke the bathtub into pieces.
+gj04	1		Bill broke the bathtub.
+gj04	1		They drank the pub dry.
+gj04	0	*	They drank the pub.
+gj04	1		The professor talked us into a stupor.
+gj04	0	*	The professor talked us.
+gj04	1		We yelled ourselves hoarse.
+gj04	0	*	We yelled ourselves.
+gj04	0	*	We yelled Harry hoarse.
+gj04	1		Harry coughed himself into a fit.
+gj04	0	*	Harry coughed himself.
+gj04	0	*	Harry coughed us into a fit.
+gj04	1		Bill followed the road into the forest.
+gj04	1		We drove Highway 5 from SD to SF.
+gj04	1		Fred tracked the leak to its source.
+gj04	1		John danced waltzes across the room.
+gj04	1		Bill urinated out the window.
+gj04	1		Bill coughed out the window.
+gj04	1		Bill bled on the floor.
+gj04	1		The toilet leaked through the floor into the kitchen below.
+gj04	1		Bill ate off the floor.
+gj04	1		Bill drank from the hose.
+gj04	1		This metal hammers flat easily.
+gj04	1		They made him president.
+gj04	1		They made him angry.
+gj04	0	*	They caused him to become angry by making him.
+gj04	0	*	They caused him to become president by making him.
+gj04	0	*	They made him to exhaustion.
+gj04	1		They made him into a monster.
+gj04	1		The trolley rumbled through the tunnel.
+gj04	1		The wagon rumbled down the road.
+gj04	1		The bullets whistled past the house.
+gj04	1		The knee replacement candidate groaned up the stairs.
+gj04	0	*	The car honked down the road.
+gj04	0	*	The dog barked out of the room.
+gj04	1		The dog barked its way out of the room.
+gj04	1		Bill whistled his way past the house.
+gj04	1		The witch vanished into the forest.
+gj04	1		Bill disappeared down the road.
+gj04	0	*	The witch went into the forest by vanishing.
+gj04	1		The witch went into the forest and thereby vanished.
+gj04	1		The building is tall and wide.
+gj04	0	*	The building is tall and tall.
+gj04	1		This building is taller and wider than that one.
+gj04	1		This building got taller and wider than that one.
+gj04	1		This building got taller and taller.
+gj04	0	*	This building is taller and taller.
+gj04	0	*	This building got than that one.
+gj04	0	*	This building is than that one.
+gj04	1		Bill floated into the cave.
+gj04	0	*?	Bill floated into the cave for hours.
+gj04	0	*?	Bill pushed Harry off the sofa for hours.
+gj04	1		Bill floated down the river for hours.
+gj04	1		Bill floated down the river.
+gj04	1		Bill pushed Harry along the trail for hours.
+gj04	1		Bill pushed Harry along the trail.
+gj04	1		The road zigzagged down the hill.
+gj04	1		The rope stretched over the pulley.
+gj04	1		The weights stretched the rope over the pulley.
+gj04	1		The weights kept the rope stretched over the pulley.
+gj04	1		Sam cut himself free.
+gj04	1		Sam got free by cutting his finger.
+gj04	1		Bill cried himself to sleep.
+gj04	0	*	Bill cried Sue to sleep.
+gj04	1		Bill squeezed himself through the hole.
+gj04	1		Bill sang himself to sleep.
+gj04	1		Bill squeezed the puppet through the hole.
+gj04	1		Bill sang Sue to sleep.
+gj04	0	*	The elevator rumbled itself to the ground.
+gj04	1		If the telephone rang, it could ring itself silly.
+gj04	0	*	She yelled hoarse.
+gj04	0	*	Ted cried to sleep.
+gj04	1		The tiger bled to death.
+gj04	1		He coughed awake and we were all overjoyed, especially Sierra.
+gj04	1		John coughed awake, rubbing his nose and cursing under his breath.
+gj04	1		John coughed himself awake on the bank of the lake where he and Bill had their play.
+gj04	1		Ron yawned himself awake.
+gj04	1		She coughed herself awake as the leaf landed on her nose.
+gj04	1		The worm wriggled onto the carpet.
+gj04	1		The chocolate melted onto the carpet.
+gj04	0	*	The ball wriggled itself loose.
+gj04	1		Bill wriggled himself loose.
+gj04	1		Aliza wriggled her tooth loose.
+gj04	1		The off center spinning flywheel shook itself loose.
+cj99	1		The more you eat, the less you want.
+cj99	1		If you eat more, you want correspondingly less.
+cj99	1		When you eat more, you want correspondingly less.
+cj99	1		As you eat more, you want correspondingly less.
+cj99	0	*	The most you want, the least you eat.
+cj99	1		The angrier Sue gets, the more Fred admires her.
+cj99	1		The more that you eat, the less that you want.
+cj99	1		The angrier that Sue gets, the more that Fred admires her.
+cj99	1		I think that the more you eat, the less you want.
+cj99	1		I'm not shocked by the idea that the more you eat, the less you want.
+cj99	1		It is obvious that the more you eat, the less you want.
+cj99	1		It is not entirely clear if the more you eat, the less you want.
+cj99	1		I want to explain exactly why the more you eat, the less you want.
+cj99	1		I demand that the more John eats, the more he pays.
+cj99	0	*	I demand that the more John eat, the more he pay.
+cj99	1		I demand that John pay more, the more he eats.
+cj99	0	*	I demand that John pays more, the more he eat.
+cj99	1		You get angrier, the more we eat, don't you.
+cj99	0	*	You get angrier, the more we eat, don't we.
+cj99	0	*	The harder it has rained, how much faster a flow that appears in the river?
+cj99	1		The harder it has rained, how much faster a flow appears in the river?
+cj99	0	*	The harder it rains, how much faster that do you run?
+cj99	1		The harder it rains, how much faster do you run?
+cj99	1		The harder it rains, how much faster a flow do you see in the river?
+cj99	0	*	The harder it rains, how much faster a flow that do you see in the river?
+cj99	1		When it rains harder, how much faster a flow appears in the river?
+cj99	1		As it rains harder, how much faster a flow appears in the river?
+cj99	0	*	As it rains harder, how much faster a flow that appears in the river?
+cj99	0	*	When it rains harder, how much faster a flow that appears in the river?
+cj99	1		How much harder has it rained, the faster a flow you see in the river?
+cj99	1		How much harder has it rained, when you see a faster flow in the river?
+cj99	0	*	The more John eats, the tighter keep your mouth shut about it.
+cj99	0	*	The more everyone eat, the more John keeps his big mouth shut about it, OK?
+cj99	1		When John eats more, keep your mouth shut tighter, OK?
+cj99	1		As John eats more, keep your mouth shut tighter, OK?
+cj99	1		Keep your mouth shut tighter, the more John eats, OK?
+cj99	1		Everyone keep your mouth shut tighter, the more John eats, OK?
+cj99	0	??	I can well imagine the more him eating, the fatter him getting.
+cj99	1		Bill can well imagine getting fat.
+cj99	0	*	Bill can well imagine the more he eats, the fatter getting.
+cj99	1		Fred can well imagine Joe getting fatter, the more he eats.
+cj99	0	*	It is important the more you eat, the more careful to be.
+cj99	0	*	It is important for the more you eat, the more careful to be.
+cj99	0	*	It is important the more you to eat, the more careful to be.
+cj99	0	*	It is important the more you eat, the more careful you to be.
+cj99	0	*	It is important the more you eat, the more careful for you to be.
+cj99	0	*	It is important for the more you to eat, the more careful to be.
+cj99	0	*	It is important for the more you to eat, the more careful for you to be.
+cj99	0	*	It is important the more you to eat, the more careful for you to be.
+cj99	0	*	It is important for the more you eat, the more careful you to be.
+cj99	1		It is important for you to be more careful, the more you eat.
+cj99	1		It is important to be more careful, the more you eat.
+cj99	0	*	I can well imagine quickly Mary answering the question.
+cj99	0	?*	I can well imagine with a hatchet Mary destroying the Jeep.
+cj99	0	?*	I can well imagine if he eats more, him getting fat.
+cj99	0	*	It is not entirely obvious if, Mary listens to the Grateful Dead, she gets depressed.
+cj99	0	*	It is not entirely obvious whether, Mary listens to the Grateful Dead, she gets depressed.
+cj99	1		Mary listens to the Grateful Dead and she gets depressed.
+cj99	1		If Mary listens to the Grateful Dead, she gets depressed.
+cj99	1		When Mary listens to the Grateful Dead, she gets depressed.
+cj99	1		Mary gets depressed if she listens to the Grateful Dead.
+cj99	1		Mary gets depressed when she listens to the Grateful Dead.
+cj99	1		The more she looked at pictures, the angrier Mary got.
+cj99	0	*	The more pictures Mary looked at, she got angrier and angrier.
+cj99	1		Mary gets depressed and she listens to the Grateful Dead.
+cj99	1		The higher the stakes are, the lower his expectations are.
+cj99	1		The higher the stakes, the lower his expectations.
+cj99	1		His expectations are lower, the higher the stakes.
+cj99	1		His expectations are lower, the higher the stakes are.
+cj99	0	*	His expectations lower, the higher the stakes.
+cj99	0	*	His expectations lower, the higher the stakes are.
+cj99	1		The more obnoxious Fred is, the less attention you should pay to him.
+cj99	0	*	The more obnoxious Fred, the less attention you should pay to him.
+cj99	1		The more Fred is obnoxious, the less you should pay attention to him.
+cj99	0	*	The more obnoxious Fred, the less you should pay attention to him.
+cj99	1		His expectations are always lower than mine.
+cj99	1		John was lots more obnoxious than Fred was.
+cj99	1		You should always lock your door, no matter how fancy the hotel might be.
+cj99	1		You should always lock your door, no matter how fancy the hotel.
+cj99	1		I don't plan to lock the door, no matter how fancy this hotel is.
+cj99	0	*	I don't plan to lock the door, no matter how fancy this hotel.
+cj99	1		I'm going out, whatever the weather.
+cj99	1		I'm going out, wherever that hurricane might be.
+cj99	0	*	I'm going out, wherever that hurricane.
+cj99	1		The more examples Mary says that Bill has helped Fred to discover the less I believe her.
+cj99	0	*	The more food Mary knows a man that eats the poorer she gets.
+cj99	0	*	The fatter he goes to a doctor when he gets the more he eats.
+cj99	0	*	The fatter that that he gets bothers him, the more he eats.
+cj99	0	*	The more books I ask to whom he will give, the more he reads.
+cj99	0	*	The more people I ask what he will give to the more he reads.
+cj99	1		The more carefully he words the letter the safer he'll be.
+cj99	0	*	The more carefully he knows a man that worded the letter the safer he'll be.
+cj99	1		The more geniuses John meets, the angrier he gets.
+cj99	0	*	The more John meets geniuses, the angrier he gets.
+cj99	1		The more people you say will buy tickets, the happier I'll be.
+cj99	0	*	The more people you say that will buy tickets, the happier I'll be.
+cj99	1		The more people you say that right after the show opens will buy tickets, the happier I'll be.
+cj99	1		The more I talk to Joe, the less about linguistics I am inclined to think Sally has taught him to appreciate.
+cj99	0	*	The more he eats, the poorer he knows a woman that gets.
+cj99	0	*	The more he eats, the fatter he goes to a doctor when he gets.
+cj99	0	*	The more he eats, the fatter that that he gets really bothers me.
+cj99	0	*	The more he reads, the more books I wonder to whom he will give.
+cj99	0	*	The more he reads, the more people I wonder what he will give to.
+cj99	0	*	The sooner you call, the more carefully I know a man that will word the letter.
+cj99	1		The richer John gets, the more geniuses John meets.
+cj99	0	*	The richer he gets, the more John meets geniuses.
+cj99	1		The more articles he reads, the fewer people he thinks will go into linguistics.
+cj99	0	*	The more articles he reads, the fewer people he thinks that will go into linguistics.
+cj99	1		The more articles he reads, the fewer people he thinks that under the current circumstances will go into linguistics.
+cj99	1		The more articles he reads, the fewer people he thinks under the current circumstances will go into linguistics.
+cj99	1		The more people that arrive, the louder that it gets.
+cj99	1		The more people that arrive, the louder it gets.
+cj99	1		The more people you give beer to, the more people that get sick.
+cj99	1		The more people that you give beer to, the more people that get sick.
+cj99	1		The more people arrive, the louder that it gets.
+cj99	1		The more people arrive, the louder it gets.
+cj99	1		The more people that you give beer to, the more people get sick.
+cj99	0	*	The more pictures of John that he buys the more arrogant he becomes.
+cj99	1		The more pictures of himself that John buys the more arrogant he becomes.
+cj99	1		The man that arrived on the train was my brother.
+cj99	0	*	The man arrived on the train was my brother.
+cj99	0	*	The more people everyone who likes pays attention to, the happier we all are.
+cj99	0	*	The later it gets, the more people everyone who likes pays attention to.
+cj99	1		Whenever Bill smokes, Susan hates him all the more.
+cj99	1		Whenever Bill smokes, Susan hates him much more.
+cj99	1		Whenever Bill smokes, Susan hates him far more.
+cj99	1		Whenever Bill smokes, Susan hates him a lot more.
+cj99	1		Once Janet left, Fred became all the crazier.
+cj99	1		Once Janet left, Fred became much crazier.
+cj99	1		Once Janet left, Fred became far crazier.
+cj99	1		Fred became all the crazier, the more often Janet left.
+cj99	1		When Bill smokes, all the more does Susan hate him.
+cj99	0	*	When Bill smokes, much more does Susan hate him.
+cj99	0	*	When Bill smokes, all the more Susan hates him.
+cj99	1		So much did you eat that everyone gasped.
+cj99	1		So fast did you run that everyone gasped.
+cj99	1		So intelligent a dog did you buy that everyone gasped.
+cj99	1		I know how much you ate.
+cj99	1		I know how fast you ran.
+cj99	1		I know how intelligent a dog you bought.
+cj99	1		He ate so much that he got sick.
+cj99	1		So much did he eat that he got sick.
+cj99	1		The more you eat, the more you want.
+cj99	0	*	You eat the more, the more you want.
+cj99	0	*	The more you eat, you want the more.
+cj99	0	*	I wonder you ate how much.
+cj99	1		I wonder to how many people Bill talks.
+cj99	1		The longer he has to wait, the angrier John gets.
+cj99	1		If he has to wait, John gets angry.
+cj99	0	*	He gets angry, the longer John has to wait.
+cj99	0	*	He gets angry if John has to wait.
+cj99	1		The more that pictures of him appear in the news, the more embarrassed John becomes.
+cj99	1		The more pictures of himself that appear in the news, the more embarrassed John becomes.
+cj99	1		The more that pictures of himself appear in the news, the more embarrassed John becomes.
+cj99	1		The more pictures of him appear in the news, the more likely John is to get arrested.
+cj99	0	*	The more pictures of himself appear in the news, the more likely John is to get arrested.
+cj99	1		The more that pictures of him appear in the news, the more likely John is to get arrested.
+cj99	0	*	The more that pictures of himself appear in the news, the more likely John is to get arrested.
+cj99	1		The more that John gets upset by them, the more that stories about him seem to show up in the news.
+cj99	0	*	The more that John gets upset by them, the more that stories about himself seem to show up in the news.
+cj99	1		John is more embarrassed, the more pictures of him appear in the news.
+cj99	1		John is more embarrassed, the more pictures of him that appear in the news.
+cj99	1		John is more embarrassed, the more pictures of himself appear in the news.
+cj99	1		John is more embarrassed, the more pictures of himself that appear in the news.
+cj99	1		Stories about him seem to show up more on the evening news, the more that John gets upset by them.
+cj99	0	*	Stories about himself seem to show up more on the evening news, the more that John gets upset by them.
+cj99	1		If you give him enough opportunity, every senator will succumb to corruption.
+cj99	1		You give him enough opportunity and every senator will succumb to corruption.
+cj99	0	*	We gave him enough opportunity and, sure enough, every senator succumbed to corruption.
+cj99	1		If you give any senator enough opportunity, he will succumb to corruption.
+cj99	1		You give any senator enough opportunity and he will succumb to corruption.
+cj99	0	*	You give every senator enough opportunity and he will succumb to corruption.
+cj99	0	*	We gave any senator enough opportunity and, sure enough, he succumbed to corruption.
+cj99	0	*	We gave every senator enough opportunity and, sure enough, he succumbed to corruption.
+cj99	1		The more lobbyists he talks to, the more corrupt every senator seems to become.
+cj99	1		The more lobbyists wine and dine him, the more every senator is susceptible to corruption.
+cj99	0	*	The more time that every senator spends with lobbyists, the more likely he succumbs to corruption.
+cj99	1		Every senator becomes more corrupt, the more lobbyists he talks to.
+cj99	1		Any senator becomes more corrupt, the more lobbyists he talks to.
+cj99	0	*	He seems to become more corrupt, the more lobbyists any senator talks to.
+cj99	0	*	He seems to become more corrupt, the more lobbyists every senator talks to.
+cj99	1		Every senator seems to become more corrupt, if he talks to more lobbyists.
+cj99	1		Any senator seems to become more corrupt, if he talks to more lobbyists.
+cj99	1		Any senator seems to become more corrupt, as he talks to more lobbyists.
+cj99	0	*	He seems to become more corrupt, if any senator talks to more lobbyists.
+cj99	0	*	He seems to become more corrupt, if every senator talks to more lobbyists.
+cj99	0	*	He seems to become more corrupt, as every senator talks to more lobbyists.
+cj99	0	*	He seems to become more corrupt, as any senator talks to more lobbyists.
+cj99	1		The sooner you solve this problem, the more easily you'll satisfy the folks up at corporate headquarters.
+cj99	1		This is the sort of problem which the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters.
+cj99	1		The folks up at corporate headquarters are the sort of people who the sooner you solve this problem, the more easily you'll satisfy.
+cj99	1		This problem, the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters.
+cj99	1		Who did you give pictures of to friends of?
+cj99	1		It is this problem that the sooner you solve the more easily you'll satisfy the folks up at corporate headquarters.
+cj99	0	?*	It is the folks up at corporate headquarters who the sooner you solve this problem, the more easily you'll satisfy.
+cj99	0	*	Which problem the sooner you solve, will the more easily you satisfy the folks up at corporate headquarters?
+cj99	0	*	Which problem does the sooner that you solve, the more easily you'll satisfy the folks up at corporate headquarters?
+cj99	0	*	Which problem the sooner that you solve, will the more easily you satisfy the folks up at corporate headquarters?
+cj99	0	*	The harder it rains, the faster who runs?
+cj99	0	*	The louder who talks, the angrier you get?
+cj99	1		The harder that it rains, how much faster a flow do you see in the river?
+cj99	1		They failed to tell me which problem the sooner I solve, the quicker the folks up at corporate headquarters.
+cj99	0	??	I finally worked up enough courage to ask which people up at corporate headquarters the sooner I solve this problem, the quicker I'll get free of.
+cj99	0	??	Which folks up at corporate headquarters do you think that the sooner you solve this problem, the quicker you'll be able to tell t to buzz off?
+cj99	0	??	This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve.
+cj99	1		This is a problem that you'll be able to tell the folks up at corporate headquarters to buzz off if you solve it.
+cj99	0	??	This is a problem that you solve it and you'll be able to tell the folks up at corporate headquarters to buzz off.
+cj99	0	??	Those are the folks that you just solve this problem and you'll be able to put them on ice.
+cj99	0	??	They failed to tell me which problem I'll beat the competition more easily, the sooner I solve.
+cj99	0	??	This is the problem that you'll beat the competition more easily, the sooner you solve.
+bc01	1		John saw the man in the room.
+bc01	1		Which room did John see the man in?
+bc01	1		Who did John think that Bill claimed that Mary suspected that everybody liked?
+bc01	1		John could not visit Sally.
+bc01	1		What John could do is not visit Sally.
+bc01	1		John couldn't visit Sally.
+bc01	1		Why did John leave?
+bc01	1		I hit the ball.
+bc01	1		You hit the ball.
+bc01	0	*	He hit the ball.
+bc01	0	*	She hit the ball.
+bc01	1		They hit the ball.
+bc01	0	*	Am not I going?
+bc01	1		I am not going.
+bc01	1		Aren't I going?
+bc01	0	*	I aren't going.
+bc01	1		Louise is unhappy, isn't she?
+bc01	1		Louise likes not being happy, doesn't she?
+bc01	1		Not many books survived the fire, did they?
+bc01	1		No books survived the fire, did they?
+bc01	1		He hasn't often paid taxes, has he?
+bc01	1		He can't pay taxes, can he?
+bc01	1		She does not see him.
+bc01	1		She kept not seeing him.
+bc01	1		She could not have been working.
+bc01	0	*	Marianne not left.
+bc01	0	*	Marianne left not.
+bc01	1		He could not have been working.
+bc01	1		He cannot have been working.
+bc01	1		He can simply not have been working.
+bc01	1		You must not simply not work.
+bc01	1		He may not just not have been working.
+bc01	1		He can't have been working.
+bc01	1		Can't he have been working?
+bc01	1		Can he not have been working?
+bc01	0	*	Can he not have been working?
+bc01	1		John wrote books.
+bc01	0	*	John write books.
+bc01	0	*	John wrote books.
+bc01	1		John did not write books.
+bc01	0	*	John seems that is nice.
+bc01	1		`` I am so happy '', thought John.
+bc01	1		down the hill rolled John.
+bc01	0	*	John kisses often Mary.
+bc01	1		John often kisses Mary.
+bc01	1		Who do you think Mary said John likes?
+bc01	0	?*	Who did you ask whether Mary knows why John likes?
+bc01	1		Who do you think that Mary said that John likes?
+bc01	0	*	How do you wonder whether Mary solved the problem?
+bc01	1		How do you think that Mary solved the problem?
+bc01	0	*	How do you wonder whether John said that Mary solved the problem?
+bc01	0	*	How do you wonder whether John said Mary solved the problem?
+bc01	0	??	Which problem do you wonder whether John said that Mary solved?
+bc01	1		How did you think that Mary solved the problem?
+bc01	1		Mary hired someone.
+bc01	1		I heard that Mary hired someone.
+bc01	1		I resigned because Mary hired someone.
+bc01	1		Mary wondered which picture of himself Bill saw?
+bc01	1		Which picture of himself does Mary think that John said that Susan likes?
+bc01	0	*	Mary thinks that John said that Susan likes pictures of himself?
+bc01	1		Mary thinks that John said that pictures of himself, Susan likes?
+bc01	1		If you don't believe me, you will the weatherman?
+bc01	1		I rolled up a newspaper, and Lynn did a magazine?
+bc01	1		Kathy likes astronomy, but she doesn't meteorology?
+bc01	1		The DA proved Jones guilty and the Assistant DA will prove Smith.
+bc01	1		Mary will believe Susan, and you will Bob.
+bc01	1		You might not believe me but you will Bob.
+bc01	0	*	You will Bob believe.
+bc01	1		How did you solve the problem?
+bc01	1		I wonder who could solve the problem in this way.
+bc01	0	*	How do you wonder who could solve this problem.
+bc01	1		No candidate can predict how many people will vote for him.
+bc01	1		Every politician is worried when the press starts attacking him.
+bc01	1		Which politician appointed the journalist who supported him?
+bc01	0	*	The fact that no candidate was elected shows that he was inadequate.
+bc01	1		John sells books, Mary buys records and Bill V newspapers.
+bc01	1		The question of whether John met Mary worries the people who support.
+bc01	1		They have left.
+bc01	1		Have they left?
+bc01	1		Could they have left?
+bc01	1		He has often seen Mary.
+bc01	1		He I often sees Mary.
+bc01	0	*	He sees often Mary.
+bc01	0	*	Sees he I often Mary?
+bc01	1		It seems that it is likely that John will win.
+bc01	1		It seems that John is likely to win.
+bc01	1		John seems to be likely to win.
+bc01	0	*	John seems that it is likely to win.
+bc01	0	*	John seems will win.
+bc01	0	*	How do you wonder which problem to solve?
+bc01	1		How intelligent do you consider John?
+bc01	0	??	How many people do you wonder whether I consider intelligent?
+bc01	0	*	How intelligent do you wonder whether I consider John?
+bc01	0	*	What the hell do you wonder how to say?
+bc01	1		He has left.
+bc01	1		His book is nice.
+bc01	1		Bill saw him.
+bc01	1		Bill works with him.
+bc01	1		John believes him to be a nice guy.
+bc01	1		John considers him a nice guy.
+bc01	1		For him to do that would be a mistake.
+bc01	1		With him sick, the team is in trouble.
+bc01	0	*	A man to be in the garden is unlikely.
+bc01	0	*	A man to come is unlikely.
+bc01	0	*	John to call would be unlikely.
+bc01	0	*	This conclusion to be arrived at is surprising.
+bc01	1		John believes that he is sick.
+bc01	0	*	John believes that him is sick.
+bc01	0	*	John tries him to win.
+bc01	0	*	John wonders where him to go.
+bc01	1		Who do you think that Bill likes?
+bc01	1		Who do you think that Bill believes to be innocent?
+bc01	0	*	Who do you think that believes John to be innocent?
+bc01	0	*	Who would you prefer for to win the race?
+bc01	1		Someone stole my car.
+bc01	1		My car was stolen.
+bc01	0	*	The children eat all chocolate.
+bc01	1		John has often kissed Mary.
+bc01	1		The kids have all eaten the chocolate.
+bc01	1		In general, he understands what's going on.
+bc01	1		It's probable that in general he understands what's going on.
+bc01	0	*	It's probable in general that he understands what's going on.
+bc01	0	*	In general that he understands what's going on is surprising.
+bc01	1		I explained how to fix the sink.
+bc01	1		I explained how we should fix the sink.
+bc01	1		I explained that we should fix the sink.
+bc01	0	*	I explained to fix the sink.
+bc01	1		Mickey looked up the reference.
+bc01	1		Mickey looked the reference up.
+bc01	1		Mickey looked up them.
+bc01	1		Mickey teamed up with the women.
+bc01	0	*	Mickey teamed with the women up.
+bc01	1		Mickey pointed out that Gary had left.
+bc01	0	*	Mickey pointed that Gary had left out.
+bc01	1		Mickey slips up all the time.
+bc01	0	*	Mickey slips all the time up.
+bc01	1		What does John think Mary bought?
+bc01	0	*	John thinks what Mary bought.
+bc01	1		John wonders what Mary bought.
+bc01	0	*	What does John wonder Mary bought?
+bc01	0	??	Who is he reading a book that criticizes?
+bc01	0	??	What do you remember where we bought?
+bc01	1		Who bought what?
+bc01	1		Who is reading a book that criticizes who?
+bc01	1		Who remembers where we bought what?
+bc01	0	*	I wonder who what bought?
+bc01	0	*	I wonder what who bought?
+bc01	1		There aren't many linguistics students here.
+bc01	1		I haven't met many linguistics students.
+bc01	1		What does every student buy?
+bc01	1		I need Sally to be there.
+bc01	0	*	The boat sank to collect the insurance.
+bc01	1		The boat was sunk to collect the insurance.
+bc01	1		John wants to win.
+bc01	1		The bed was unmade.
+bc01	0	*	Headway was unmade.
+bc01	1		John was unknown.
+bc01	0	*	John was unknown to be the murderer.
+bc01	1		We knew John to be the murderer.
+bc01	1		He fed the children.
+bc01	1		The children were uneducated.
+bc01	1		The children were undisciplined.
+bc01	1		I believed these students all to like John.
+bc01	1		They tried to all like John.
+bc01	1		I believed these students to all like John.
+bc01	0	?*	Did he try ever to talk to the student?
+bc01	1		Did you believe him ever to have made an effort to talk to the student?
+bc01	1		Did he try to ever be attentive to the needs of students?
+bc01	1		Did you believe him to ever have made an effort to talk to the student?
+bc01	1		work out an analysis that is typical of this view of understood subjects.
+bc01	1		They were believed all to be quite diligent.
+bc01	1		Was he believed ever to fail students?
+bc01	1		There is tending to be more and more discussion of these issues.
+bc01	1		John seemed to be a great linguist.
+bc01	1		There promises to be a storm tonight.
+bc01	1		John strived to be successful.
+bc01	1		John wanted to improve his lot in life.
+bc01	1		John expected to win.
+bc01	1		This book is too dense to be read in one sitting.
+bc01	0	*	There is too likely to be a riot to be a serious discussion of the issues.
+bc01	1		John tried.
+bc01	1		John remembered.
+bc01	1		John is refused.
+bc01	1		John forgot.
+bc01	0	*	Bill seems to be obnoxious, but I don't think that Sam happens.
+bc01	0	*	Bill seems to be obnoxious, but I don't think that Sam turns out.
+bc01	0	*	Bill seems to be obnoxious, but I don't think that Sam tends.
+bc01	0	*	They tried all to like John.
+bc01	1		They seemed all to like John.
+bc01	1		John believes Sally to be polite.
+bc01	1		I believe John with all my heart to be a fine person.
+bc01	0	*	John is wanted to win.
+bc01	0	*	John would be liked to win.
+bc01	1		We would like John to win.
+bc01	0	*	John would be hated to win.
+bc01	0	*	John would be preferred to be the candidate.
+bc01	1		We would prefer John to be the candidate.
+bc01	1		I would like for John to win.
+bc01	1		I would hate for John to win.
+bc01	1		I would prefer for John to be the candidate.
+bc01	1		John destroyed the house.
+bc01	1		The electrode emitted ions into the medium.
+bc01	1		Ions struck the electrode.
+bc01	1		The medium contains ions.
+bc01	0	*	The house destroyed John.
+bc01	1		Ions left the electrode.
+bc01	0	*	The electrode was left by ions.
+bc01	1		The electrode was struck by ions.
+bc01	1		The ball lies in the box.
+bc01	1		The ball rolled from the bush to the tree.
+bc01	1		The box contains the ball.
+bc01	1		The tree dropped fruit to the ground.
+bc01	1		Fruit hit the ground from the tree.
+bc01	1		The stone knocked against the pole into the road.
+bc01	1		The stone knocked the pole into the road.
+bc01	1		The box contained the ball.
+bc01	0	*	The box gradually contained the ball.
+bc01	0	*	The box at once contained the ball.
+bc01	0	*	The box contained the ball to the ground.
+bc01	1		The tree gradually dropped its fruit to the ground.
+bc01	1		The tree dropped its fruit to the ground.
+bc01	1		Fruit hit the roof.
+bc01	1		Fruit hit the roof from the tree.
+bc01	1		Fruit at once hit the roof from the tree.
+bc01	0	*	Fruit hit the roof against the ground.
+bc01	0	*	Fruit at once hit the roof against the ground.
+bc01	1		Fruit dropped from the tree.
+bc01	0	*	Fruit dropped from the tree from the clouds.
+bc01	0	*	Fruit fell against the house.
+bc01	0	*	Fruit fell against the house against the ground.
+bc01	1		The tree changed into an oak.
+bc01	1		The tree changed from a maple into an oak.
+bc01	0	*	The maple changed into an oak from a cedar.
+bc01	1		The maple changed into an oak from a cedar.
+bc01	1		The maple changed into an oak.
+bc01	1		The oak developed out of a maple.
+bc01	1		The train reached the station.
+bc01	1		The branches knocked against the wall.
+bc01	1		The child became a man.
+bc01	1		The party lasted till midnight.
+bc01	1		The dog went crazy.
+bc01	1		It struck John that it was so.
+bc01	1		It came to John that it was so.
+bc01	1		The snake saw into the nest.
+bc01	1		Hard work resulted in high grades.
+bc01	1		The farm passed to John.
+bc01	1		John is touching the wall.
+bc01	1		The wall is being touched by John.
+bc01	1		A bear occupies the cave.
+bc01	1		A bear inhabits the cave.
+bc01	1		Water fills the tub.
+bc01	1		The electric main joins the house circuit in the basement.
+bc01	1		The house circuit is joined by the electric main in the basement.
+bc01	1		The fence straddles the sidewalk.
+bc01	1		The sidewalk is straddled by the fence.
+bc01	1		The man with a book.
+bc01	1		Gas escaped the tube.
+bc01	1		The terrorist escaped the prison cell.
+bc01	1		The prison cell was escaped by the terrorist.
+bc01	1		The rolling stone avoided the river.
+bc01	1		The river was avoided by the rolling stone.
+bc01	1		The agents caught the terrorist.
+bc01	1		The sponge soaked up the water.
+bc01	1		The tub filled with water.
+bc01	1		John received a book.
+bc01	1		John learned a lesson.
+bc01	1		The parcel reached John.
+bc01	1		John received the parcel.
+bc01	1		The farm finally got to John after much litigation.
+bc01	0	*	The farm finally reached John after much litigation.
+bc01	1		Water filled the cup high.
+bc01	1		Water filled the cup.
+bc01	0	*	Water emptied the cup.
+bc01	0	*	The cup filled the water high.
+bc01	0	*	The cup filled of water.
+bc01	1		The cup filled with water.
+bc01	0	*	The cup emptied with water.
+bc01	1		the barge piled high with logs.
+bc01	0	*	the road blocked with a stone.
+bc01	0	*	the branch dropped bare of its apple.
+bc01	0	*	the logs piled the barge high.
+bc01	1		a stone blocked the road.
+bc01	0	*	the bottle drained the liquid free.
+bc01	1		the branch dropped its apple free.
+bc01	1		Some branches broke off of the tree.
+bc01	0	*	The tree broke off some branches.
+bc01	1		The tree dropped some branches.
+bc01	1		The tree lost some branches.
+bc01	1		Water bubbled out of the kettle.
+bc01	0	*	The kettle bubbled water up.
+bc01	1		The kettle bubbled water.
+bc01	0	*	The cup filled water.
+bc01	0	*	The stone knocked the pole into the road.
+bc01	1		The tub leaked empty of water.
+bc01	0	*	The stone knocked against the pole into the road.
+bc01	1		Hail stones broke the window.
+bc01	1		The force of the wind broke the window.
+bc01	0	*	The window broke from hail stones.
+bc01	1		The window broke from the force of the wind.
+bc01	1		What the force of the wind did to the window was break it.
+bc01	1		John hit the stone against the wall.
+bc01	1		John hit the wall with the stone.
+bc01	1		John tapped some wine from a barrel.
+bc01	1		John tapped a barrel of some wine.
+bc01	1		John laid the book on the table.
+bc01	1		John included his name in the list.
+bc01	1		John loaded the bricks onto the truck.
+bc01	1		John loaded the truck with bricks.
+bc01	1		John fed rice to the baby.
+bc01	1		John fed the baby rice.
+bc01	1		John fed the baby up with rice.
+bc01	0	*	John fed the baby rice up.
+bc01	1		The ball lies completely in the box.
+bc01	1		The box completely contains the ball.
+bc01	1		The train got to the station fully.
+bc01	1		The train reached the station fully.
+bc01	1		Press the stamp against the pad completely.
+bc01	1		Press the pad with the stamp completely.
+bc01	1		Spray the paint onto the wall completely.
+bc01	1		Spray all the paint onto the wall completely.
+bc01	0	*	Spray the wall with all the paint.
+bc01	1		Spray the whole wall with the paint.
+bc01	1		What John did to the wall was paint it.
+bc01	1		What John did to the whole wall was paint it.
+bc01	1		What John did to the wall was hit it.
+bc01	0	*	What the stone did to the wall was hit it.
+bc01	0	*	What the stone did to the whole wall was hit it.
+bc01	1		John took Bill to be a fool.
+bc01	0	*	John concluded Bill to be a fool.
+bc01	1		Give the bottle to the baby full.
+bc01	0	*	Give the bottle to the baby awake.
+bc01	1		Give the baby the bottle full.
+bc01	0	*	Give the baby the bottle awake.
+bc01	1		Rub the cloth on the baby torn.
+bc01	0	*	Rub the cloth on the baby asleep.
+bc01	1		Rub the baby with the cloth torn.
+bc01	0	*	Rub the baby with the cloth asleep.
+bc01	1		Dry the baby with the cloth asleep.
+bc01	0	*	Dry the baby with the cloth torn.
+bc01	0	*	The cup knocked the stone apart.
+bc01	1		The stone knocked the cup apart.
+bc01	1		The cup smashed apart against the stone.
+bc01	1		The stone smashed the cup apart.
+bc01	1		The tank filled with petrol out of the pump.
+bc01	1		The cup emptied of water onto the ground.
+bc01	1		John included her name in the list.
+bc01	1		John rolled the ball from the tree to the bush.
+bc01	1		John tapped the bottle of some water.
+bc01	1		John gave Bill the book.
+bc01	1		John got the book from Bill.
+bc01	0	*	John gave Bill of the book.
+bc01	1		We have someone in the living room.
+bc01	1		John is very fond of Mary.
+bc01	1		Mary laughed at John.
+bc01	1		The ship sank beneath the waves.
+bc01	1		Mary considers John a fool and Bill a wimp.
+bc01	1		John regards professors as strange and politicians as creepy.
+bc01	1		Sue put the books on the table and the records on the chair.
+bc01	1		Harriet gave a mug to John and a scarf to Vivien.
+bc01	1		I expect John to win and Harry to lose.
+bc01	1		You eat the fish raw and the beef cooked.
+bc01	1		They told Sue who to talk to and Virginia when to leave.
+bc01	1		Smith loaned, and his widow later donated, a valuable collection of manuscripts to the library.
+bc01	1		Sue moved, and Mary also transferred, her business to a different location.
+bc01	1		I succeeded in convincing, even though John had failed to persuade, Mary not to leave.
+bc01	1		We didn't particularly like, but nevertheless ate, the fish raw.
+bc01	1		Flo desperately wants, though she doesn't really expect, the Miami Dolphins to be in the play-offs.
+bc01	1		John learned French perfectly.
+bc01	1		Bill recited his lines poorly.
+bc01	1		Mary plays the violin beautifully.
+bc01	0	*	John perfectly learned French.
+bc01	0	*	Bill poorly recited his lines.
+bc01	1		John learned French immediately.
+bc01	1		Bill recited his lines slowly.
+bc01	1		Mary will play the violin soon.
+bc01	1		John immediately learned French.
+bc01	1		Bill slowly recited his lines.
+bc01	1		Mary will soon play the violin.
+bc01	1		John immediately learned French perfectly.
+bc01	1		John learned French perfectly almost immediately.
+bc01	1		John learned French perfectly immediately.
+bc01	0	*	John perfectly learned French immediately.
+bc01	0	*	John learned French immediately perfectly.
+bc01	0	*	Clearly, John immediately will probably learn French perfectly.
+bc01	0	*	Immediately, John probably will clearly learn French perfectly.
+bc01	0	*	Clearly, John perfectly will immediately learn French probably.
+bc01	0	*	John perfectly rolled the ball down the hill.
+bc01	1		John rolled the ball perfectly down the hill.
+bc01	1		John rolled the ball down the hill perfectly.
+bc01	0	*	John perfectly shot the ball.
+bc01	1		John shot the ball perfectly.
+bc01	0	*	John intimately spoke to Mary.
+bc01	1		John spoke intimately to Mary.
+bc01	1		John spoke to Mary intimately.
+bc01	1		John spoke French intimately to Mary.
+bc01	1		John spoke French to Mary intimately.
+bc01	1		Mary jumped the horse perfectly over the last fence.
+bc01	1		Mary jumped the horse over the last fence perfectly.
+bc01	0	*	John spoke intimately French to Mary.
+bc01	0	*	John spoke to Mary French.
+bc01	0	*	Mary persuaded to leave John.
+bc01	0	*	The lions ate raw the meat.
+bc01	0	*	Mary persuaded that he should rest Bill.
+bc01	1		We consider the men all fools.
+bc01	1		We consider the men all totally crazy.
+bc01	0	*	I saw the men all.
+bc01	0	*	The men were arrested all.
+bc01	0	*	The men arrived all.
+bc01	1		The teacher ordered the two boys both to pay close attention.
+bc01	1		They returned the books all to their owners.
+bc01	1		We painted the chairs all red.
+bc01	1		The trainer fed the steaks all to the lions.
+bc01	0	*	Bill proud of himself John doesn't consider.
+bc01	0	*	Home was gone by John.
+bc01	1		Mary left the room angry.
+bc01	0	*	The room was left angry by Mary.
+bc01	0	*	The room was left angry.
+bc01	1		John resembles Bill.
+bc01	0	*	Bill is resembled by John.
+bc01	1		The package weighed 10 lb.
+bc01	0	*	10 lb was weighed by the package.
+bc01	1		This book cost $10.
+bc01	0	*	$10 was cost by this book.
+bc01	1		The book cost John $10.
+bc01	0	*	John was cost $10 by the book.
+bc01	0	*	John is impressed by Bill as pompous.
+bc01	0	*	The boys were made a good mother.
+bc01	0	*	The boys were made a good mother by Aunt Mary.
+bc01	0	*	The kids were failed by Max as a father.
+bc01	0	*	The kids were failed as a father.
+bc01	0	*	The men were struck by the idea as nonsense.
+bc01	0	*	The men were promised to leave.
+bc01	0	*	He impresses his friends all as pompous.
+bc01	0	*	Aunt Mary made the boys all a good mother.
+bc01	0	*	Max failed the kids all as a father.
+bc01	0	*	Frank promised the men all to leave.
+bc01	0	*	We proclaimed to the public John to be a hero.
+bc01	1		We proclaimed John to the public to be a hero.
+bc01	0	*	We proclaimed sincerely John to be a hero.
+bc01	1		We proclaimed John sincerely to be a hero.
+bc01	0	*	We proclaimed sincerely to the public John to be a hero.
+bc01	1		We proclaimed John sincerely to the public to be a hero.
+bc01	0	*	They represented to the dean Mary as a genuine linguist.
+bc01	1		They represented Mary to the dean as a genuine linguist.
+bc01	0	*	They represented seriously Mary as a genuine linguist.
+bc01	1		They represented Mary seriously as a genuine linguist.
+bc01	1		They represented Mary seriously to the dean as a genuine linguist.
+bc01	0	*	We proved to the authorities Smith to be the thief.
+bc01	0	*	We proved conclusively Smith to be the thief.
+bc01	1		We proved Smith conclusively to be the thief.
+bc01	0	*	We proved conclusively to the authorities Smith to be the thief.
+bc01	1		We proved Smith conclusively to the authorities to be the thief.
+bc01	1		The gardener watered the tulips flat.
+bc01	1		The grocer ground the coffee beans to a fine powder.
+bc01	1		They painted their house a hideous shade of green.
+bc01	1		The joggers ran their Nikes threadbare.
+bc01	1		The kids laughed themselves into a frenzy.
+bc01	1		He coughed his handkerchief completely soggy.
+bc01	1		They fed the meat to the lions raw.
+bc01	0	*	The lions ate at the meat raw.
+bc01	1		We love them.
+bc01	0	*	We love they.
+bc01	0	*	We love their.
+bc01	0	*	Us love their.
+bc01	1		Our love they.
+bc01	1		Our love them.
+bc01	1		Our love their.
+bc01	0	*	he belief that Mary kissed Bill is mistaken.
+bc01	0	*	him belief that Mary kissed Bill is mistaken.
+bc01	1		his belief that Mary kissed Bill is mistaken.
+bc01	1		Mary loves him.
+bc01	1		Mary is fond of him.
+bc01	0	*	Mary is fond him.
+bc01	1		Mary criticized him.
+bc01	0	*	Mary's criticism him was cruel.
+bc01	1		Mary's criticism of him was cruel.
+bc01	1		That John loves Mary is doubtful.
+bc01	0	*	John to love Mary would be doubtful.
+bc01	1		For John to love Mary would be doubtful.
+bc01	1		To go abroad would be nice.
+bc01	1		John's plan to go abroad is nice.
+bc01	1		Mary believed John to have loved her.
+bc01	1		Mary considered John to have loved her.
+bc01	1		Mary reported John to have loved her.
+bc01	0	*	Mary considered to have loved her.
+bc01	1		Mary tried to go abroad.
+bc01	1		Mary intended to go abroad.
+bc01	1		Mary managed to go abroad.
+bc01	1		Mary desired to go abroad.
+bc01	0	*	Mary tried John to go abroad.
+bc01	0	*	Mary managed John to go abroad.
+bc01	0	*	Mary desired John to go abroad.
+bc01	1		Mary believed him to have loved her.
+bc01	1		Mary considered him to have loved her.
+bc01	0	*	Mary believed he to have loved her.
+bc01	0	*	Mary considered he to have loved her.
+bc01	0	*	Mary reported he to have loved her.
+bc01	0	*	Mary believed his to have loved her.
+bc01	0	*	Mary considered his to have loved her.
+bc01	0	*	Mary reported his to have loved her.
+bc01	1		It is certain that John has loved Mary.
+bc01	1		It is likely that John has loved Mary.
+bc01	1		There are strangers in that garden.
+bc01	0	*	There is strangers in that garden.
+bc01	0	*	There is arriving three men at that station.
+bc01	1		There are arriving three men at that station.
+bc01	1		I consider there to be a man in that garden.
+bc01	0	*	I consider there a man in that garden.
+bc01	1		They alleged there to have been many strangers in that garden.
+bc01	0	*	They alleged many strangers to have been in that garden.
+bc01	1		John wagered there to have been a stranger in that haunted house.
+bc01	0	*	John wagered a stranger to have been in that haunted house.
+bc01	1		John tried to kiss Mary.
+bc01	1		John persuaded Mary to kiss him.
+bc01	1		John told Mary to kiss him.
+bc01	1		It is illegal to park here.
+bc01	1		I remembered him having kissed Mary.
+bc01	1		I reported him having kissed Mary.
+bc01	1		I reported having kissed Mary.
+bc01	1		I enjoy taking a bath.
+bc01	1		I detest taking a bath.
+bc01	0	*	I enjoy him taking a bath.
+bc01	0	*	I detest him taking a bath.
+bc01	1		I saw him kissing Mary.
+bc01	1		I noticed him kissing Mary.
+bc01	0	*	I noticed kissing Mary.
+bc01	0	*	There was known to everyone.
+bc01	1		John's refusing the offer is shocking.
+bc01	1		the enemy's destroying the city was horrific.
+bc01	1		John's refusal of the offer was shocking.
+bc01	1		the enemy's destruction of the city was horrific.
+bc01	0	*	John wanted to leave the room happy and leave the room he did happy.
+bc01	1		I often send Mary home drunk, and she gets there just fine.
+bc01	0	*	I raw eat fish drunk.
+bc01	0	*	I only eat fish drunk raw.
+bc01	1		I don't think Fred will, either.
+bc01	1		José likes cabbage, and Holly does too.
+bc01	1		José ate cabbage, and Holly has too.
+bc01	1		José is eating cabbage, and Holly is too.
+bc01	1		John is leaving but Mary's not.
+bc01	1		I consider Bill intelligent and I consider Sally not.
+bc01	0	*	Sally started running down the street, but only after José started.
+bc01	0	*	Sally made Bill laugh, and then José made.
+bc01	0	*	Mary came to read Fred's story, and I also came to.
+bc01	1		John wants to go on vacation, but he doesn't know when to.
+bc01	0	*	Mary was told to bring something to the party, so she asked Sue what to.
+bc01	0	*	We might go on vacation if we can ever figure out when to.
+bc01	0	*	Ron wanted to wear a tuxedo to the party, but Caspar couldn't decide whether to.
+bc01	0	*	You shouldn't play with rifles because to is dangerous.
+bc01	0	*	John is being discussed and Sally is being too.
+bc01	0	*	I remember John being discussed, but you recall Sally being.
+bc01	1		Sally might have eaten cabbage, but Holly shouldn't.
+bc01	1		José asks that we go to the meeting, and Sally will tell us when.
+bc01	0	*	It's we go to the meeting, that Sally will tell us when.
+bc01	1		It's to Mary that Joe said Holly can talk.
+bc01	1		Mary claimed that eaten cabbage, Holly hasn't.
+bc01	1		Mary claimed that eating cabbage, Holly's not.
+bc01	1		Mary claimed that eat cabbage, Holly wants to.
+bc01	0	*	Mary claimed that would eat cabbage, Holly.
+bc01	0	*	Mary claimed that hasn't eaten cabbage, Holly.
+bc01	0	*	Mary claimed that eating cabbage, Holly started.
+bc01	0	*	Mary claimed that eat cabbage, Holly made me.
+bc01	0	*	Mary claimed that have eaten cabbage, Holly should.
+bc01	0	*	Mary claimed that intelligent, I consider Holly not.
+bc01	0	*	Lilly recounted a story to remember because Holly had also recounted a story to.
+bc01	0	*?	I reviewed Joe's attempt to find Holly while you reviewed José's attempt to.
+bc01	0	*?	Mary questioned Joe's desire to eat cabbage, but only after I had questioned Sally's desire to.
+bc01	0	*?	Sally explained the attempt to arrest Holly, but only after I had denied the decision to.
+bc01	1		John didn't hit a home run, but I know a woman who did.
+bc01	1		That Betsy won the batting crown is not surprising, but that Peter didn't know she did is surprising.
+bc01	0	*	You shouldn't have played with rifles because to have is dangerous.
+bc01	0	??	Ron wanted to be wearing a tuxedo to the party, but Caspar didn't know whether to be.
+bc01	0	*	Lilly recounted a story to be remembered because Holly had recounted a story to be.
+bc01	1		Lilly decided that eating cabbage, she should be.
+bc01	0	*	Lilly decided eating cabbage, to be.
+bc01	1		Read Fred's story, I also want to.
+bc01	0	*	You shouldn't play with rifles because play with rifles to is dangerous.
+bc01	0	??	Ron wanted to wear a tuxedo to the party, but wear a tuxedo to the party Caspar couldn't decide whether to.
+bc01	0	*	Lucy Barnes recounted a story to remember because remember Holly had recounted a story to.
+bc01	1		Mag Wildwood came to introduce the bartender but I came not to.
+bc01	1		Mag Wildwood came to introduce the bartender but I came precisely not to.
+bc01	1		You should unload rifles because not to s is dangerous.
+bc01	1		If Ron knows whether to wear a tuxedo, and Caspar knows whether not to, do they know different things?
+bc01	1		Lucy recounted a story to remember because Holly had recounted as story not to.
+bc01	0	*	I will, if I can work on it.
+bc01	1		Did Harry leave?
+bc01	1		Does Joe sing?
+bc01	0	*	A proof that God exist does.
+bc01	0	*	A proof that God does exists.
+bc01	0	*	I visited every town in every country I had to.
+bc01	1		Every man who said he would buy some salmon did.
+bc01	1		I visited every town I had to.
+bc01	1		Every town in every country I had to I visited.
+bc01	1		Every man who said he would buy some salmon did buy some salmon.
+bc01	1		Lilly should buy salmon and Mary should too.
+bc01	1		Lilly should buy salmon and Mary should buy salmon too.
+bc01	1		Joe's neuroses bother his patrons, and Sally's neuroses do too.
+bc01	1		Joe likes his bar, and Sally's patrons do too.
+bc01	1		Every picture of itself arrived.
+bc01	1		My uncle doesn't have a spouse but your aunt does and he is lying on the floor.
+bc01	0	*	My uncle didn't buy anything for Christmas, but my aunt did it for him and it was bright red.
+bc01	1		I know which book Max read, and which book Oscar didn't.
+bc01	1		This is the book of which Bill approves, and this is the one of which he doesn't.
+bc01	0	?*	I know which book Mag read, and which book Bob asked why you hadn't.
+bc01	0	?*	I know which book Mag read, and which book Bob discussed after I had.
+bc01	1		Dulles suspected everyone who Angleton did.
+bc01	1		While Bob read Fred, he didn't Dickens.
+bc01	1		Sally suspected Joe, but he didn't Holly.
+bc01	0	*	Although Mag doesn't eggplants, Sally eats cabbage.
+bc01	0	?*	Although I don't know which book Sam did, I do know which book Sally read.
+bc01	0	?*	Near everyone Angleton did, Dulles stood.
+bc01	0	*	Sally will stand near Mag, but he won't Holly.
+bc01	0	*	While Holly didn't discuss a report about every boy, she did every girl.
+bc01	1		Sally will stand near every woman that you will.
+bc01	1		I know which woman Holly will discuss a report about, but I don't know which woman you will.
+bc01	0	*	Sam stood near yesterday every one of the women we'd been discussing.
+bc01	0	*	Truman visited yesterday you.
+bc01	0	*	Truman told the story Bob.
+bc01	1		While Truman didn't visit me, he did you.
+bc01	1		While Truman didn't tell me a story, he did Rusty.
+bc01	1		While José won't talk about Mag, he might about Holly.
+bc01	1		Although Doc might tell it to you, he won't to me.
+bc01	1		I think you need to show yourself more than you do anyone else.
+bc01	1		While Truman doesn't want to visit every city, he does Barcelona.
+bc01	0	*	While Rusty might leave in order to please Mag, he won't his father.
+bc01	0	*	While Doc might claim that Bob had read his book, he won't the paper.
+bc01	0	*	I'll turn the radio down, but I won't up.
+bc01	1		Fred likes eggplants, although he likes cabbage too.
+bc01	1		Although he likes cabbage too, Fred likes eggplants.
+bc01	1		Fred gave flowers to his sweetie because Frank had.
+bc01	1		China is a country that Joe wants to visit, and he will too, if he gets enough money.
+bc01	1		Jerry wouldn't read a book by Babel, but Meryl has done so and it was pretty good.
+bc01	0	*	I know which book Max read, and which book Oscar hasn't done so.
+bc01	1		Joe might wish he had, but this isn't a country he has visited.
+bc01	1		While I might want to, this is the kind of thing that Harris has already suggested.
+bc01	1		We like our friends and they do too.
+bc01	1		We like our friends and they like our friends too.
+bc01	1		We like our friends and they like their friends, too.
+bc01	1		Rusty talked about himself only after Holly did.
+bc01	0	*	Rusty talked about himself only after Mary did talk about himself.
+bc01	1		I could find no solution, but Holly might.
+bc01	1		Fred talked about everything before Rusty did.
+bc01	1		Joe will go to the store, even though Fred already has.
+bc01	1		Today there is little or no official harassment of lesbians and gays by the national government, although autonomous governments might.
+bc01	1		The candidate was dogged by charges of infidelity and avoiding the draft, or at least trying to.
+bc01	0	*	David is a great artist, and when he does, his eyes squint at you.
+bc01	0	*	The candidate was dogged by charges of infidelity, or at least trying to.
+bc01	1		This information could have been released by Gorbachev, but he chose not to.
+bc01	1		A lot of this material can be presented in a fairly informal and accessible fashion, and often I do.
+bc01	0	*	John likes not Mary.
+bc01	1		John does not like Mary.
+bc01	0	*	John meets often Mary.
+bc01	1		John tries to often meet Mary.
+bc01	0	*	John tries to meet often Mary.
+bc01	1		John tries not to meet Mary.
+bc01	0	*	John tries to meet not Mary.
+bc01	1		Is Mary running the marathon?
+bc01	0	*	Runs Mary the marathon?
+bc01	1		Mary is often running the marathon.
+bc01	0	*	Mary runs often the marathon.
+bc01	1		Mary is not running the marathon.
+bc01	1		I didn't, as Bill had thought, go to the store.
+bc01	1		I did, as Bill had thought, go to the store.
+bc01	0	*	I did not, as Bill had thought, go to the store.
+bc01	1		The writers could so believe the boy.
+bc01	0	*	The writers so believed the boy.
+bc01	1		The writers did so believe the boy.
+bc01	0	*	The writers didn't so believe the boy.
+bc01	1		Rome destroyed Carthage.
+bc01	1		Rome's destruction of Carthage was horrific.
+bc01	1		John bought the picture of himself that Bill saw.
+bc01	1		The perception of the problem is quite thorough.
+bc01	1		The knowledge of the problem is quite thorough.
+bc01	0	*	The problem's perception is quite thorough.
+bc01	0	*	The problem's knowledge is quite thorough.
+bc01	0	*	The problem knows easily.
+bc01	0	*	The ship sank to collect the insurance.
+bc01	1		The sinking of the ship was very devious.
+bc01	1		The sinking of the ship to collect the insurance was very devious.
+bc01	1		The ship's sinking was very devious.
+bc01	0	*	The ship's sinking to collect the insurance was very devious.
+bc01	1		The testing of such drugs on oneself is too risky.
+bc01	0	*	This drug's testing on oneself is too risky.
+bc01	1		The ship was sunk to collect the insurance.
+bc01	1		This drug must first be tested on oneself.
+bc01	1		The president's moral destruction is complete.
+bc01	1		The moral destruction of the president was certainly not helpful.
+bc01	1		Mary wants to wear nice blue German dress.
+bc01	1		Tomatoes were introduced in Europe after 1492.
+bc01	1		We rich have impeccable taste.
+bc01	0	*	Rich we have impeccable taste.

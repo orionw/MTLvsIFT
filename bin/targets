@@ -1,0 +1,22 @@
+#! /usr/bin/env bash
+
+# Print all continuous integration targets in the repo.
+
+set -e
+
+
+# Fetch the root.
+
+ROOT=$(git rev-parse --show-toplevel)
+
+# Create the list of targets.
+
+TARGETS=$(cat <(ls $ROOT/bin/*.py) - <<EOF
+$ROOT/src/transferprediction
+$ROOT/tests
+EOF
+)
+
+# Print the targets.
+
+echo "${TARGETS}"

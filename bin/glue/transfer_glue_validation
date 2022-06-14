@@ -1,0 +1,61 @@
+#! /usr/bin/env bash
+export GLUE_DIR=glue_size_datasets
+
+path_to_saved_models=distil-glue-validation-single
+
+declare -a qnli_33=(List_All_CheckPoints_Of_Saved_Models_Here)
+declare -a qnli_5=(List_All_CheckPoints_Of_Saved_Models_Here)
+declare -a qnli_1=(List_All_CheckPoints_Of_Saved_Models_Here)
+declare -a sst_33=(List_All_CheckPoints_Of_Saved_Models_Here)
+declare -a sst_5=(List_All_CheckPoints_Of_Saved_Models_Here)
+declare -a sst_1=(List_All_CheckPoints_Of_Saved_Models_Here)
+
+declare -a arrays=("${qnli_33[*]@Q}" "${qnli_5[*]@Q}" "${qnli_1[*]@Q}" "${sst_33[*]@Q}" "${sst_5[*]@Q}" "${sst_1[*]@Q}")
+
+model_path=($(echo "${arrays[$2]}" | tr ' ' '\n'))
+declare -a current_task=("QNLI" "QNLI" "QNLI" "SST-2" "SST-2" "SST-2")
+declare -a random_num=($1)
+seed=$1
+
+base_dir="distil-glue-validation-single-transfer"
+output_base="$base_dir"
+
+for ((k=0; k<${#model_path[@]}; k++)); # saved models
+    do
+    for ((i=0; i<1; i++)); # random seeds, just do one since it was passed here
+    do
+        # gather info
+        target_task_prop="$(echo ${model_path[k]} | cut -d _ -f 2)"
+        target_task_name="${current_task[$2]}_$target_task_prop"
+        supporting_task_prop="$(echo ${model_path[k]} | cut -d _ -f 3)"
+        support_task_name="$(echo ${model_path[k]} | cut -d / -f 3)"
+        echo "${model_path[k]} on ${random_num[i]}-$target_task_name--$support_task_name"
+
+        python3 -m transferprediction.run_glue \
+            --model_type roberta \
+            --model_name_or_path $path_to_saved_models/${model_path[k]} \
+            --task_names ${current_task[$2]} \
+            --do_train \
+            --do_eval \
+            --seed "${random_num[i]}" \
+            --do_lower_case \
+            --data_dirs "$GLUE_DIR/$target_task_name" \
+            --max_seq_length 128 \
+            --per_gpu_train_batch_size 128 \
+            --learning_rate 2e-5 \
+            --save_checkpoints 20 \
+            --num_train_epochs 10.0 \
+            --overwrite_output_dir \
+            --fp16 \
+            --start_again \
+            --sampling_type uniform \
+            --batch_type heterogeneous \
+            --eval_all_checkpoints \
+            --output_dir "$output_base/$seed/$target_task_prop/$target_task_name--$support_task_name/" && 
+            python3 -m transferprediction.find_save_best_only $output_base/$seed/$target_task_prop/ --single
+            if [ $? -ne 0 ]; then
+                echo "was an unsucessful run for "${random_num[i]}"-$target_task_name--$support_task_name, quitting"
+                exit 1
+            fi
+    done
+done

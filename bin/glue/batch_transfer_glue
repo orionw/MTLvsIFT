@@ -1,0 +1,11 @@
+#! /bin/bash
+declare -a random_num=(42 544460 801760 428404 257803)
+
+for ((i=0; i<${#random_num[@]}; i++)); # random seeds
+do
+    sbatch -J "${random_num[i]}"-transfer --gpus=1 <server-info-here> ./bin/glue/transfer_glue "${random_num[i]}"
+    if [ $? -ne 0 ]; then
+        echo "was an unsucessful run for seed "${random_num[i]}", quitting"
+        exit 1
+    fi
+done
